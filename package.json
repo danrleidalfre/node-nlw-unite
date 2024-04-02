@@ -1,0 +1,10 @@
+{
+  "name": "nlw-unite",
+  "version": "1.0.0",
+  "description": "Pass-in realiza o gerenciamento de participantes de um evento.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
