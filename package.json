@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "Pass-in realiza o gerenciamento de participantes de um evento.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
 }
