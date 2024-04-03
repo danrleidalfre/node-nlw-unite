@@ -5,6 +5,7 @@ import {registerForEvent} from "./routes/register-for-event";
 import {getEvent} from "./routes/get-event";
 import {getAttendeeBadge} from "./routes/get-attendee-badge";
 import {checkIn} from "./routes/check-in";
+import {getAttendeesEvent} from "./routes/get-attendees-event";
 
 const app = fastify()
 
@@ -16,6 +17,7 @@ app.register(registerForEvent)
 app.register(getEvent)
 app.register(getAttendeeBadge)
 app.register(checkIn)
+app.register(getAttendeesEvent)
 
 app.listen({port: 3333}).then(() => {
   console.log('HTTP Server Running')
